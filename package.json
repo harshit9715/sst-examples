@@ -1,8 +1,12 @@
 {
    "private": true,
    "name": "sst-examples",
-   "workspaces": ["packages/apis/rest-api"],
+   "workspaces": [
+      "packages/apis/rest-api",
+      "packages/apis/ws"
+   ],
    "scripts": {
-      "rest-api": "yarn workspace rest-api"
+      "rest-api": "yarn workspace rest-api",
+      "ws": "yarn workspace ws"
    }
 }
